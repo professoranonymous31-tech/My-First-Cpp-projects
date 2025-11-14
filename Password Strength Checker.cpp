@@ -57,7 +57,7 @@ for(char check : pass)
 
 // 4️⃣ Penalty for repeated characters:
 
-      unordered_set<char> unique_chars(pass.begin() , pass.end());;
+      unordered_set<char> unique_chars(pass.begin() , pass.end());
       if (unique_chars.size() < pass.length())
          { strength--;}
 
